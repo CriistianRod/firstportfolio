@@ -1,0 +1,20 @@
+/* Tag selector */
+header{
+    background: pink;
+}
+
+/* Descendent selector
+body header div nav ul li a{
+    color: rebeccapurple;
+} */
+
+/* Class selector */
+.link {
+    color: rebeccapurple;
+}
+
+/* Id selector 
+#portfalio{
+    color: green;
+}
+*/

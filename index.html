@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristian profe</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
             <figure>
                 <img src="images/logo.png" alt="Se supone que el logo personal">
@@ -16,13 +16,13 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#"> Portafolio </a>
+                        <a class="link" href="#portfolio"> Portafolio </a>
                     </li>
                     <li>
-                        <a href="#"> Experiencia </a>
+                        <a class="link" href="#events"> Experiencia </a>
                     </li>
                     <li>
-                        <a href="#"> Trabajemos juntos </a>
+                        <a class="link" href="#contact"> Trabajemos juntos </a>
                     </li>
                 </ul>
             </nav>
@@ -34,14 +34,14 @@
             No soy un nadaísta,<br>
             yo soy un <strong>todero loco</strong>
         </h1>
-        <img src="images/hero.jpg" alt="" width="500" alt="Imagen principal del sitio">
+        <img src="images/hero.jpg" width="500" alt="Imagen principal del sitio">
     </section>
     <section>
         Sección principial
         <h1>Mi etiqueta de sección principal </h1>
         <p>Here we fucking go! </p>
     </section>
-    <section>
+    <section id="portfolio">
         <h2> Portafolio (Proyectos destacados) </h2>
         <article>
             <h3> Aquí pondría mi primer proyecto </h3>
@@ -51,11 +51,12 @@
             <p> Mi idea es hacer una página web profesional como profesor
                 y en algún momento otra como desarollador web.</p>
             <em> Ahora me quiero mucho más. </em>
-            <i> Me gusta aprender y escribir </i>
+            <i> Me gusta aprender y escribir. </i>
+            <i> Y estar triste. </i> 🤡
             <img src="images/platzi-video-react-native.png" width="500" alt="Proyecto del curso de react native">
         </article>
     </section>
-    <section>
+    <section id="events">
         <h2>Más sobre mi experiencia</h2>
         <article>
             <figure>
@@ -63,9 +64,10 @@
             </figure>
             <h3> Matemáticas </h3>
             <p> Sé todo sobre matemáticas de colegio y calculo uno dos y tres. </p>
+            <a href="https://youtu.be/XJB-7JUFZKU" target="_blank">Ver charla</a>
         </article>
     </section>
-    <section>
+    <section id="contact">
         <form action="/suscripcion/">
             <h3> ¿Creamos algo juntos? </h3>
             <input type="text" placeholder="Déjame tu email" id="email">
