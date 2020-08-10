@@ -1,7 +1,7 @@
 /* Tag selector */
-header{
+/* header{
     background: pink;
-}
+} */
 
 /* Descendent selector
 body header div nav ul li a{
@@ -9,7 +9,7 @@ body header div nav ul li a{
 } */
 
 /* Class selector */
-.link {
+.link{
     color: rebeccapurple;
 }
 
@@ -18,3 +18,20 @@ body header div nav ul li a{
     color: green;
 }
 */
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    letter-spacing: -.2px;
+    /* text-transform: lowercase; */
+    text-decoration: dashed;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+}
