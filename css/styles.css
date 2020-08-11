@@ -26,12 +26,55 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
-    letter-spacing: -.2px;
     /* text-transform: lowercase; */
-    text-decoration: dashed;
+    /* text-decoration: dashed; */
 }
 
 h1 {
     font-size: 40px;
     line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 100px 540px 70px 30px;
+}
+
+h1 strong{
+    color: teal;
+}
+
+.hero{
+    height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-color: #1B252C;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.project{
+    /* border-top: solid teal 13px;
+    border-left: solid blueviolet 13px; */
+    /* border-top-color: cadetblue;
+    border-top-width: 15px;
+    border-top-style: solid; */
+    border: solid 1px grey;
+    border-radius: 10px 0;
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+
+.header {
+    background-color: #1B252C;
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
 }
