@@ -21,6 +21,7 @@ body header div nav ul li a{
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -51,6 +52,10 @@ h1 strong{
     background-position: right;
 }
 
+.portfolio{
+    background: #fafafa;
+}
+
 .project{
     /* border-top: solid teal 13px;
     border-left: solid blueviolet 13px; */
@@ -58,7 +63,10 @@ h1 strong{
     border-top-width: 15px;
     border-top-style: solid; */
     border: solid 1px grey;
-    border-radius: 10px 0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
 }
 
 .project-details{
