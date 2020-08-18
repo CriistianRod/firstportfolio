@@ -36,7 +36,8 @@ h1 {
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 540px 70px 30px;
+    margin: 0;
+    /* margin: 100px 540px 70px 30px; */
 }
 
 h1 strong{
@@ -49,7 +50,9 @@ h1 strong{
     background-color: #1B252C;
     background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
@@ -80,11 +83,32 @@ h1 strong{
 .header {
     background-color: #1B252C;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
 }
 
 .header a{
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ul {
+    display: flex;
+    height: inherit;
+}
+
+.header ul li{
+    height: inherit;
 }
 
 .flexbox {
@@ -103,4 +127,30 @@ h1 strong{
     margin: 5px;
     border: 1px solid red;
     flex-shrink: 0;
+}
+
+.footer {
+    color: white;
+    background-color: #1B2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+    margin: 0;
 }
