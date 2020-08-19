@@ -233,3 +233,65 @@ figure {
     color: teal;
     border-radius: 5px;
 }
+
+.contact {
+    background-color: teal;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+}
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+
+.social-link.github{
+    background-image: url('../images/github.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+}
+
+.email-form input {
+    border-color: rosybrown;
+    padding: 10px 20px 10px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url('../images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.email-form button {
+    display: block;
+    margin-top: 7.5px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    /* margin: 10px auto; */
+}
+
+.email-form h3 {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
